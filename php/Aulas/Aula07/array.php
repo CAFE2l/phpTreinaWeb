@@ -1,27 +1,32 @@
 <?php
+
 $linguagens = ["PHP", "JavaScript", "Python"];
 
-$linguagens2 = array("SQL", "React", "Typescript");
+$linguagens[3] = "C";
 
-$curso = ["Curso de PHP Fundamentos", 8.7, 40, true];
+print_r($linguagens);
+echo "<br>";
 
-$curso = [
-  "nome_curso" => "Curso de PHP Fundamentos",
-  "versao" => 8.5,
-  "cargaHoraria" => 40,
-  "status" => true
+$cursos = [
+  "php" => [
+    "nome_curso" => "curso de PHP moderno",
+    "versao" => 8.2,
+    "cargaHoraria" => 40,
+    "status" => true
+  ],
+  "Javascript" => [
+    "nome_curso" => "curso em vídeo de javascript",
+    "versao" => 6,
+    "cargaHoraria" => 40,
+    "status" => true
+  ]
 ];
 
-echo $curso["nome_curso"];
-echo "<br>";
 
-echo $curso["versao"];
+$cursos["php"]["pre-requesito"] = "Lógica de Programação";
 echo "<br>";
-
-echo $curso["cargaHoraria"];
+print_r($cursos);
 echo "<br>";
-
-echo $curso["status"];
 echo "<br>";
-
+echo $cursos["php"]["nome_curso"];
 
