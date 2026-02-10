@@ -1,7 +1,7 @@
 <?php
 
-$a = 10;
-$b = 20;
+$a = 0;
+$b = 22;
 
 /**/
 /* if ($a > $b){ */
@@ -12,8 +12,16 @@ $b = 20;
 /*   echo "Não sobrou nada :O"; */
 /* } */
 /**/
-if ($a > $b)
- echo "<br>";
-echo "BRUTAL<br>";
-echo "Acabou pro beta";
-
+if ($a > $b){
+  echo "Realmente A é maior que B";
+} elseif($b == 20){
+  echo "BRUTAL";
+  echo "<br>";
+  echo "Acabou pro beta";
+} elseif($a == 10){
+  echo "Perdeu aura depois dessa";
+} else{
+  echo "nao vou nem falar nada";
+  echo "<br>";
+  echo "-saiko";
+}
