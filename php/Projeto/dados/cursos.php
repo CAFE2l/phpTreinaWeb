@@ -3,28 +3,28 @@
 function cursos() {
     return [
         "php" => [
-            "nome_curso" => "Curso de PHP Fundamentos",
-            "versao_ferramenta" => 7.4,
+            "nome_curso" => "Curso de PHP Moderno",
+            "versao_ferramenta" => 8.2,
             "carga_horaria" => 40,
             "status" => true
         ],
         "Python" => [
             "nome_curso" => "Curso de Python mundo 4",
-            "versao_ferramenta" => 11.4,
-            "carga_horaria" => 30,
+            "versao_ferramenta" => 3.14,
+            "carga_horaria" => 40,
             "status" => true
         ],
-        "C#" => [
-            "nome_curso" => "Curso de C# Fundamentos",
+        "HTML & CSS" => [
+            "nome_curso" => "Curso de HTML & CSS",
             "versao_ferramenta" => 5,
-            "carga_horaria" => 60,
+            "carga_horaria" => 40,
             "status" => true
         ],
         "javascript" => [
-            "nome_curso" => "Curso de Javascript Fundamentos",
-            "versao_ferramenta" => 11.4,
-            "carga_horaria" => 30,
-            "status" => false
+            "nome_curso" => "Curso em vídeo de JavaScript",
+            "versao_ferramenta" => 6,
+            "carga_horaria" => 40,
+            "status" => true
         ],
     ];
 }
