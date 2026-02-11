@@ -12,7 +12,7 @@ $cursos = [
     "nome_curso" => "curso de PHP moderno",
     "versao" => 8.2,
     "cargaHoraria" => 40,
-    "status" => true
+     "status" => true
   ],
   "Javascript" => [
     "nome_curso" => "curso em vídeo de javascript",
